@@ -30,6 +30,7 @@ html {
     width: 72%;
     table-layout: fixed;
     background-color: #868686;
+    border-radius: 10px;
 }
 
     .About_Table td {
