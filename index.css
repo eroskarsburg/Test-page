@@ -1,3 +1,43 @@
-html{
+html, 
+body {
     color-scheme: dark;
+    height: 100%;
 }
+.topnav {
+    overflow: hidden;
+    background-color: #3c4043;
+  }
+  
+  .topnav a {
+    float: left;
+    background-color: #3c4043;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 2rem;
+    font-family: 'Bebas Neue';
+  }
+
+  .logo {
+    font-family: 'Oswald';
+    float: right;
+    font-size: 1.5rem;
+    padding-right: 4rem;
+  }
+
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #5f6368;
+    color: white;
+  }
+
+  iframe {
+    width: 100%;
+    height: 100vh;
+  }
