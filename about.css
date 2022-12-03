@@ -1,3 +1,63 @@
-html{
+html {
     color-scheme: dark;
+}
+
+.Header_Div {
+    background-image: linear-gradient(#a896e3,#927fd3);
+    width: 100%;
+    line-height: 400px;
+    height: 400px;
+    border: 3px solid rgb(61, 51, 80);
+    text-align: center;
+}
+
+    .Header_Div p {
+        line-height: 1.5;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+.Header_Div_Font {
+    font-family: 'Oswald';
+    font-size: 64px;
+}
+
+
+
+
+.About_Table {
+    margin: 0 auto;
+    width: 72%;
+    table-layout: fixed;
+    background-color: #868686;
+}
+
+    .About_Table td {
+        vertical-align: top;
+    }
+
+.Table_Stop {
+    margin: 0 auto;
+    width: 75%;
+    table-layout: fixed
+}
+
+.About_Header_Text {
+    font-family: 'Oswald';
+    text-align: center;
+    color: #e1a0e7;
+}
+
+.About_Table p {
+    margin: 0;
+    font-family: 'Oswald';
+    text-align: start;
+}
+
+.About_Table img {
+    margin-left: 25%;
+    width: 50%;
+    height: 25vh;
+    border-radius: 48%;
+    border: 2px solid black;
 }
