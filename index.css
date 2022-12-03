@@ -2,6 +2,7 @@ html,
 body {
     color-scheme: dark;
     height: 100%;
+    overflow: hidden;
 }
 .topnav {
     overflow: hidden;
@@ -26,6 +27,10 @@ body {
     padding-right: 4rem;
   }
 
+  .logo strong{
+    color: #927fd3;
+  }
+
   
   .topnav a:hover {
     background-color: #ddd;
@@ -34,7 +39,7 @@ body {
   
   .topnav a.active {
     background-color: #5f6368;
-    color: white;
+    color: #a896e3;
   }
 
   iframe {
